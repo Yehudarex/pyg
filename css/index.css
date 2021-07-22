@@ -1,0 +1,390 @@
+.w .main {
+    width: 980px;
+    height: 456px;
+    /* background-color: pink; */
+    margin-left: 219px;
+    margin-top: 10px;
+}
+.w .main .focus {
+    float: left;
+    padding-top: 1px;
+    width: 720px;
+    height: 100%;
+    margin-right: 9px;
+}
+.w .main .newsflash {
+    float: left;
+    width: 251px;
+    height: 100%;
+    /* background-color: skyblue; */
+}
+.w .main .newsflash .top {
+    width: 100%;
+    height: 165px;
+    border: 1px solid #e4e4e4;
+}
+.w .main .newsflash .top .one {
+    /* position: relative; */
+    height: 35px;
+    width: 100%;
+    margin-bottom: 8px;
+    border-bottom: 1px dotted #e4e4e4;
+}
+.w .main .newsflash .top .one h4 {
+    float: left;
+    padding: 8px 111px 0 16px;
+    font-weight: 400;
+    font-size: 14px;
+    color: #333;
+}
+.w .main .newsflash .top .one div {
+    /* position: absolute; */
+    /* top: 0; */
+    /* right: 17px; */
+    float: left;
+    padding-top: 8px;
+    /* height: 20px; */
+    font-size: 12px;
+    color: #666;
+}
+.w .main .newsflash .top .one div i {
+    font-family: "icomoon";
+    content: "\e903";
+    vertical-align: middle;
+    padding-left: 3px;
+}
+.w .main .newsflash .top .two {
+    padding-left: 14px;
+}
+.w .main .newsflash .top .two ul li {
+    margin-bottom: 6px;
+}
+.w .main .newsflash .top .two ul li a {
+    font-size: 12px;
+    color: #666;
+}
+.w .main .newsflash .top .two ul li a i {
+    font-weight: 700;
+}
+.w .main .newsflash .top .two ul li a:hover {
+    color: #e33333;
+}
+.w .main .newsflash .middle {
+    overflow: hidden;
+    height: 213px;
+    /* background-color: skyblue; */
+    border-left: 1px solid #e4e4e4;
+    border-right: 1px solid #e4e4e4;
+}
+.w .main .newsflash .middle ul {
+    width: 252px;
+}
+.w .main .newsflash .middle ul li {
+    float: left;
+    position: relative;
+    width: 63px;
+    height: 71px;
+    border-right: 1px solid #e4e4e4;
+    border-bottom: 1px solid #e4e4e4;
+    text-align: center;
+}
+.w .main .newsflash .middle ul li i {
+    display: block;
+    width: 24px;
+    height: 26px;
+    margin-top: 13px;
+    margin-left: 18px;
+    background-image: url(../images/icons.png);
+}
+.w .main .newsflash .middle ul li a {
+    display: block;
+    /* text-align: center; */
+    padding-top: 5px;
+    font-size: 12px;
+    color: #666;
+}
+.w .main .newsflash .middle ul li .sj {
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-top: 14px solid #589d5a;
+    border-bottom: 4px solid transparent;
+    border-left: 7px solid #589d5a;
+    border-right: 7px solid #589d5a;
+}
+.w .main .newsflash .middle ul li em {
+    position: absolute;
+    top: -2px;
+    right: 1px;
+    font-size: 12px;
+    color: #fff;
+}
+.w .main .newsflash .middle ul li a:hover {
+    color: #e33333;
+}
+.w .main .newsflash .middle ul li:first-child i {
+    background-position: -17px -15px;
+}
+.w .main .newsflash .middle ul li:nth-child(2) i {
+    background-position: -79px -15px;
+}
+.w .main .newsflash .middle ul li:nth-child(3) i {
+    background-position: -141px -15px;
+}
+.w .main .newsflash .middle ul li:nth-child(4) i {
+    background-position: -205px -13px;
+}
+.w .main .newsflash .middle ul li:nth-child(5) i {
+    background-position: -16px -85px;
+}
+.w .main .newsflash .middle ul li:nth-child(6) i {
+    background-position: -79px -86px;
+}
+.w .main .newsflash .middle ul li:nth-child(7) i {
+    background-position: -141px -86px;
+}
+.w .main .newsflash .middle ul li:nth-child(8) i {
+    background-position: -206px -86px;
+}
+.w .main .newsflash .middle ul li:nth-child(9) i {
+    background-position: -16px -156px;
+}
+.w .main .newsflash .middle ul li:nth-child(10) i {
+    background-position: -79px -157px;
+}
+.w .main .newsflash .middle ul li:nth-child(11) i {
+    background-position: -142px -151px;
+}
+.w .main .newsflash .middle ul li:nth-child(12) i {
+    background-position: -206px -157px;
+}
+.w .main .newsflash .bottom {
+    height: 77px;
+    /* background-color: skyblue; */
+}
+.w .main .newsflash .bottom ul li {
+    padding-top: 2px;
+    padding-left: 1px;
+}
+/* 首页模块结束 */
+/* 推荐模块开始 */
+.zhanshi {
+    height: 163px;
+    margin-top: 10px;
+    /* margin-bottom: 10px; */
+    background-color: #ebebeb;
+}
+.zhanshi .tuijian {
+    float: left;
+    width: 206px;
+    height: 100%;
+    background-color: #5c5251;
+    text-align: center;
+}
+.zhanshi .tuijian i {
+    display: inline-block;
+    width: 57px;
+    height: 57px;
+    margin-top: 30px;
+    background: url(../images/tuijian.png) no-repeat;
+}
+.zhanshi .tuijian h4 {
+    padding-top: 5px;
+    font-size: 18px;
+    font-weight: 400;
+    color: #fff;
+}
+.zhanshi .youzhi {
+    float: left;
+    width: 994px;
+    height: 100%;
+    overflow: hidden;
+    /* background-color: skyblue; */
+}
+.zhanshi .youzhi ul {
+    width: 996px;
+    margin-top: 10px;
+}
+.zhanshi .youzhi ul li {
+    float: left;
+    width: 249px;
+    height: 144px;
+    border-right: 1px solid #ddd;
+}
+.zhanshi .youzhi ul li img {
+    float: right;
+    width: 125px;
+    height: 125px;
+    margin: 12px 15px 0 0;
+}
+.zhanshi .youzhi ul li:last-child img {
+    margin-right: 40px;
+}
+.zhanshi .youzhi ul li div {
+    width: 90px;
+    height: 100%;
+    padding-top: 10px;
+    margin-left: 20px;
+}
+.zhanshi .youzhi ul li div strong {
+    font-size: 16px;
+    color: #333;
+}
+.zhanshi .youzhi ul li div h4 {
+    width: 87px;
+    height: 18px;
+    margin-top: 8px;
+    background-color: #00a0e8;
+    font-size: 14px;
+    color: #fff;
+    font-weight: 400;
+    text-align: center;
+    line-height: 18px;
+}
+.zhanshi .youzhi ul li div p {
+    margin-top: 3px;
+    font-size: 12px;
+    color: #666;
+}
+.zhanshi .youzhi ul li div span {
+    display: block;
+    width: 57px;
+    height: 18px;
+    margin-top: 18px;
+    background-color: #5fb200;
+    border-radius: 9px;
+    font-size: 14px;
+    color: #fff;
+    text-align: center;
+    line-height: 18px;
+}
+.zhanshi .youzhi ul li:nth-child(2) div h4 {
+    background-color: #5fb200;
+}
+.zhanshi .youzhi ul li:nth-child(3) div h4 {
+    width: 71px;
+    background-color: #e2162f;
+}
+.zhanshi .youzhi ul li:nth-child(3) div span {
+    background-color: #e2162f;
+}
+.zhanshi .youzhi ul li:nth-child(4) div h4 {
+    width: 65px;
+    background-color: #0085fb;
+}
+.zhanshi .youzhi ul li:nth-child(4) div span {
+    background-color: #0085fb;
+}
+/* 推荐模块结束 */
+/* 猜你喜欢区域开始 */
+.xihuan {
+    margin-top: 25px;
+    /* background-color: pink; */
+}
+.xihuan .box_hd {
+    height: 40px;
+    /* background-color: skyblue; */
+}
+.xihuan .box_hd h4 {
+    float: left;
+    font-size: 18px;
+    color: #333;
+    line-height: 40px;
+}
+.xihuan .box_hd a {
+    display: block;
+    float: left;
+    margin-left: 1050px;
+    line-height: 40px;
+    font-size: 12px;
+    color: #666;
+}
+.xihuan .box_hd a i {
+    float: right;
+    display: block;
+    width: 14px;
+    height: 14px;
+    margin-top: 13px;
+    margin-left: 5px;
+    background: url(../images/shuaxin.png) no-repeat;
+}
+.xihuan .box_bd {
+    height: 235px;
+    /* border: 1px solid #ededed; */
+    /* background-color: skyblue; */
+}
+.xihuan .box_bd ul li {
+    position: relative;
+    float: left;
+    width: 200px;
+    height: 235px;
+    border-top: 1px solid #ededed;
+    border-bottom: 1px solid #ededed;
+    /* background-color: pink; */
+}
+.xihuan .box_bd ul li:first-child {
+    border-left: 1px solid #ededed;
+}
+.xihuan .box_bd ul li:last-child {
+    border-right: 1px solid #ededed;
+}
+.xihuan .box_bd ul li i {
+    display: inline-block;
+    width: 100%;
+    height: 160px;
+    padding-top: 10px;
+    text-align: center;
+}
+.xihuan .box_bd ul li:nth-child(2) i {
+    padding-top: 35px;
+} 
+.xihuan .box_bd ul li:nth-child(3) i {
+    padding-top: 25px;
+} 
+.xihuan .box_bd ul li:nth-child(4) i {
+    padding-top: 65px;
+} 
+.xihuan .box_bd ul li:nth-child(5) i {
+    padding-top: 25px;
+} 
+.xihuan .box_bd ul li:nth-child(6) i {
+    padding-top: 25px;
+} 
+.xihuan .box_bd ul li div {
+    padding-left: 35px;
+    padding-top: 3px;
+}
+.xihuan .box_bd ul li div p {
+    font-size: 12px;
+    color: #666;
+}
+.xihuan .box_bd ul li div strong {
+    font-size: 18px;
+    font-weight: 400;
+    color: #df3033;
+}
+.xihuan .box_bd ul li div strong em {
+    font-size: 14px;
+}
+.xihuan .box_bd ul li span {
+    display: block;
+    position: absolute;
+    right: 0;
+    bottom: 10px;
+    width: 1px;
+    height: 62px;
+    background-color: #ededed;
+}
+/* 猜你喜欢区域结束 */
+/* 有趣区开始 */
+.yq {
+    height: 435px;
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+/* 有趣区结束 */
+/* 楼层区域开始 */
+.floor {
+    
+}

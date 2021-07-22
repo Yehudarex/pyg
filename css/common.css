@@ -1,0 +1,382 @@
+@font-face {
+    font-family: 'icomoon';
+    src:  url('fonts/icomoon.eot?qfoy3w');
+    src:  url('fonts/icomoon.eot?qfoy3w#iefix') format('embedded-opentype'),
+      url('fonts/icomoon.ttf?qfoy3w') format('truetype'),
+      url('fonts/icomoon.woff?qfoy3w') format('woff'),
+      url('fonts/icomoon.svg?qfoy3w#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+  }
+/* 版心 */
+.w {
+    width: 1200px;
+    margin: 0 auto;
+}
+/* 快捷导航模块开始 */
+.shortcut {
+    width: auto;
+    height: 31px;
+    background-color: #f1f1f1;
+}
+.shortcut .w {
+    height: 31px;
+}
+.shortcut .w .left {
+    float: left;
+    width: 186px;
+    height: 31px;
+    line-height: 31px;
+}
+.shortcut .w .left ul li {
+    float: left;
+}
+.shortcut .w .left ul li a:first-child {
+    margin: 0 5px 0 5px;
+}
+.shortcut .w .left ul li a:last-child {
+    color: #c81623;
+}
+.shortcut .w .right {
+    float: right;
+    height: 31px;
+    /* padding: 6px 0 6px 0; */
+    line-height: 31px;
+}
+.shortcut .w .right ul li {
+    font-family: "icomoon";
+    float: left;
+}
+.shortcut .w .right ul li:nth-child(2n) {
+    width: 1px;
+    height: 12px;
+    margin: 9px 14px 0;
+    background-color: #666;
+}
+.shortcut .w .right ul li a i {
+    padding-left: 10px;
+}
+/* 快捷导航模块结束 */
+/* header头部模块开始 */
+.header {
+    position: relative;
+    height: 106px;
+    /* background-color: pink; */
+}
+.header .logo {
+    position: absolute;
+    top: 27px;
+    left: 0;
+    width: 171px;
+    height: 61px;
+    /* background-color: skyblue; */
+}
+.header .logo h1 a {
+    display: block;
+    width: 171px;
+    height: 61px;
+    background: url(../images/pinyou.com.png) no-repeat;
+    text-indent: -9999px;
+    overflow: hidden;
+}
+.header .search {
+    position: absolute;
+    top: 26px;
+    left: 347px;
+    width: 538px;
+    height: 36px;
+    /* background-color: red; */
+    line-height: 36px;
+}
+.header .search input {
+    float: left;
+    width: 456px;
+    height: 100%;
+    border: 2px solid #b1191a;
+    border-right: 0;
+    outline: none;
+    padding-left: 10px;
+    color: #666;
+    font-size: 14px;
+}
+.header .search button {
+    float: right;
+    width: 82px;
+    height: 100%;
+    background-color: #b1191a;
+    border: 0;
+    color: #fff;
+    font-size: 16px;
+}
+.header .hotwords {
+    position: absolute;
+    left: 359px;
+    top: 70px;
+}
+.header .hotwords ul li {
+    float: left;
+    margin-right: 25px;
+}
+.header .hotwords ul li a {
+    font-size: 12px;
+}
+.header .hotwords ul li:first-child a{
+    color: #c81623;
+}
+.header .shopcar {
+    position: absolute;
+    top: 26px;
+    right: 64px;
+    width: 140px;
+    height: 36px;
+    background-color: #f7f7f7;
+    border: 1px solid #dfdfdf;
+    line-height: 36px;
+    text-align: center;
+}
+.header .shopcar a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    padding-left: 10px;
+}
+.header .shopcar a::before {
+    margin-right: 5px;
+    content: "\e905";
+    font-family: "icomoon";
+    color: #d84b4b;
+    font-size: 14px;
+    vertical-align: top;
+}
+.header .shopcar:hover {
+    border-color: #b1191a;
+}
+.header .shopcar a::after {
+    margin-left: 10px;
+    /* float: right; */
+    /* margin-right: 14px; */
+    content: "\e903";
+    font-family: "icomoon";
+    color: #a4a4a4;
+    vertical-align: middle;
+}
+.header .shopcar .count {
+    position: absolute;
+    top: -6px;
+    left: 105px;
+    /* width: 16px; */
+    height: 14px;
+    padding: 0 5px 0 5px;
+    background-color: #e60012;
+    border-radius: 7px 7px 7px 0;
+    line-height: 14px;
+    color: #fff;
+    font-size: 12px;
+}
+/* header头部模块结束 */
+/* nav导航栏模块开始 */
+.nav {
+    height: 47px;
+    /* background-color: pink; */
+    border-bottom: 2px solid #b1191a;
+    /* line-height: 47px; */
+}
+.nav .w {
+    height: 100%;
+    /* background-color: skyblue; */
+}
+.nav .w .left {
+    float: left;
+    width: 209px;
+    height: 100%;
+    background-color: #b1191a;
+    /* font-size: 16px; */
+    /* color: #fff; */
+    /* text-align: center; */
+}
+.nav .w .left .dt {
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    font-size: 16px;
+    text-align: center;
+    line-height: 45px;
+}
+.nav .w .left .dd {
+    width: 100%;
+    height: 465px;
+    margin-top: 2px;
+    background-color: #c81623;
+}
+.nav .w .left .dd ul li {
+    float: left;
+    margin-left: 1px;
+    width: 100%;
+    padding-right: 11px;
+    /* color: #fff; */
+}
+.nav .w .left .dd ul li:hover {
+    background-color: #fff;
+}
+.nav .w .left .dd ul li:hover>a {
+    color: #c81623;
+}
+.nav .w .left .dd ul li a {
+    display: block;
+    float: left;
+    padding: 5px 0px 5px 11px;
+    color: #fff;
+    font-size: 14px;
+}
+.nav .w .left .dd ul li i {
+    float: right;
+    height: 31px;
+    padding-top: 2px;
+    font-family: "icomoon";
+    font-size: 10px;
+    line-height: 31px;
+    color: #fff;
+}
+.nav .w .right {
+    line-height: 47px;
+}
+.nav .w .right ul {
+    float: left;
+    height: 100%;
+    /* background-color: red; */
+    margin-left: 16px;
+}
+.nav .w .right ul li {
+    float: left;
+}
+.nav .w .right ul li a {
+    display: block;
+    padding: 0 25px;
+    font-size: 16px;
+    color: #333;
+}
+.nav .w .right ul li a:hover {
+    background-color: #b1191a;
+    color: #fff;
+}
+/* nav导航栏模块结束 */
+/* 底部模块开始 */
+.footer {
+    height: 418px;
+    /* margin-top: 500px; */
+    background-color: #f5f5f5;
+}
+.footer .w {
+    height: 100%;
+    /* background-color: pink; */
+}
+.footer .w .top {
+    height: 110px;
+    border-bottom: 1px solid #ededed;
+}
+.footer .w .top ul li {
+    float: left;
+    width: 240px;
+    height: 49px;
+    margin-top: 30px;
+    padding-left: 37px;
+    /* background-color: skyblue; */
+}
+.footer .w .top ul li h4 {
+    /* display: block; */
+    float: left;
+    width: 49px;
+    height: 49px;
+    margin-right: 7px;
+    /* background-color: red; */
+    border-radius: 24.5px;
+    background: url(../images/icons.png) no-repeat -253px -3px;
+}
+.footer .w .top ul li:nth-child(2) h4 {
+    background: url(../images/icons.png) no-repeat -255px -54px;
+}
+.footer .w .top ul li:nth-child(3) h4 {
+    background: url(../images/icons.png) no-repeat -257px -106px;
+}
+.footer .w .top ul li:nth-child(4) h4 {
+    background: url(../images/icons.png) no-repeat -258px -157px;
+}
+.footer .w .top ul li:nth-child(5) h4 {
+    background: url(../images/icons.png) no-repeat -258px -209px;
+}
+.footer .w .top ul li div {
+    margin-top: 5px;
+}
+.footer .w .top ul li div h6 {
+    font-weight: 700;
+    font-size: 14px;
+    color: #333;
+}
+.footer .w .top ul li div p {
+    font-size: 12px;
+    color: #666;
+}
+.footer .w .middle {
+    height: 188px;
+    padding-left: 52px;
+    border-bottom: 1px solid #ededed;
+}
+.footer .w .middle dl {
+    float: left;
+    margin-top: 10px;
+    margin-right: 130px;
+}
+.footer .w .middle dl dt {
+    margin-bottom: 5px;
+    font-size: 16px;
+    color: #333;
+}
+.footer .w .middle dl dd {
+    margin-bottom: 3px;
+}
+.footer .w .middle dl dd a {
+    font-size: 12px;
+    color: #333;
+}
+.footer .w .middle div {
+    float: left;
+    width: 90px;
+    text-align: center;
+}
+.footer .w .middle div h4 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #333;
+}
+.footer .w .middle div p {
+    margin-top: 5px;
+    font-size: 12px;
+    color: #333;
+}
+.footer .w .bottom {
+    margin-top: 20px;
+    padding: 0 105px;
+    /* margin-bottom: 50px; */
+}
+.footer .w .bottom ul {
+    /* margin: 0 105px; */
+}
+.footer .w .bottom ul li {
+    float: left;
+}
+.footer .w .bottom ul li:nth-child(2n) {
+    width: 1px;
+    height: 12px;
+    background-color: #999;
+    margin: 4px 15px 0 15px;
+}
+.footer .w .bottom p {
+    /* float: left; */
+    font-size: 12px;
+    color: #666;
+    text-align: center;
+    line-height: 20px;
+}
